@@ -64,7 +64,7 @@ nav ul li a:hover{
 	position: absolute;
 	top: 50%;
 	left:8%;
-    transform: translateY(-175%);
+	transform: translateY(-175%);
 }
 h1{
 	color: white;
@@ -82,59 +82,77 @@ h4{
 	font-size: 20px;
 }
 
-.skills{
+.experience{
+	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
-	background-color: transparent;
-    transform: translateY(10%);
 }
-.skills img{
-	height: auto;
-	width: 530px;
-}
-.skills-text{
-	width: 550px;
-}
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-.skills-text h2{
-	color: white;
-	font-size: 40px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.skills-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 28px;
+
+.experience ul{
+    align-items: left;
+    color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
 	margin-bottom: 25px;
-	text-transform: capitalize;
+
 }
-.skills-text ul{
-	color: rgba(255, 204, 255, 0.89);
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 22px;
-	margin-bottom: 45px;
-    padding: 5px;
+
+.experience h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
 }
-.button2{
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 425px;
+	width: 500px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+    transform: translateY(20%);
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f900e4;
+
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
 	background-color:#f900e4;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 13px 30px;
+	padding: 9px 22px;
 	border-radius: 30px;
 	transition: .4s; 
 }
-.button2:hover{
+.card .button:hover{
 	background-color: transparent;
 	border: 2px solid #f900e4;
 	cursor: pointer;
